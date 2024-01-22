@@ -1,59 +1,58 @@
-
 /*resert*/
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    border: solid 1px; color:blue;
+    border: solid 1px;
+    color: blue;
 }
 
-.menu.navbar-collapse{
+.menu.navbar-collapse {
     flex-grow: 0;
 }
-.menu-ul{
-background-color: rgb(157, 186, 153);
+
+.menu-ul {
+    background-color: rgb(157, 186, 153);
 }
 
-.nav-item :hover{
-    background-color:blue
+.nav-item :hover {
+    background-color: blue;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     width: 150px;
     height: 150px;
 }
 
-body{
-    font-family: 'Kanit', sans-serif;
-    background-color:white;
+body {
+    font-family: "Kanit", sans-serif;
+    background-color: white;
 }
 
-h1{ 
+h1 {
     color: rgb(27, 27, 172);
     background-color: rgb(157, 186, 153);
     text-align: center;
 }
 
-h2{
+h2 {
     color: blue;
     text-align: center;
-
 }
 
-p{ color:blue;
+p {
+    color: blue;
     font-size: larger;
     margin: 30px;
-
 }
-.subtitulo{
-    color: rgb(82, 122, 76); 
+
+.subtitulo {
+    color: rgb(82, 122, 76);
     background: rgb(113, 184, 234);
-    
 }
-
 
 /*no me anda bien */
-.grid-galeria div{
+.grid-galeria div {
     display: grid;
     /*no me anda bien por las medidas aca */
     grid-template-columns: auto auto auto;
@@ -61,47 +60,40 @@ p{ color:blue;
     /* gap: 1rem; */
     margin: 1rem;
     justify-content: center;
-
-    ;
 }
 
 .grid-galeria div img {
     width: 100%;
     height: 100%;
     object-fit: center;
-
 }
 
-footer{
+footer {
     font-style: italic;
     color: blue;
     background-color: rgb(117, 181, 119);
     text-align: center;
-    }
+}
 
-    .telefono{
-        display: inline;
-    }
+.telefono {
+    display: inline;
+}
 
-
-@media screen and (max-width: 1024px){
-    .grid-galeria div{
+@media screen and (max-width: 1024px) {
+    .grid-galeria div {
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
-    
     }
-    }
+}
 
-@media screen and (max-width: 768px){
-        .grid-galeria div{
-            grid-template-columns: auto;
-            grid-template-rows: auto;
-        }
-        }
-    
+@media screen and (max-width: 768px) {
+    .grid-galeria div {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}
 
 /*estilos para pag contacto*/
-
 
 .container {
     display: flex;
@@ -150,32 +142,30 @@ button {
 }
 
 button:hover {
-    background-color:blue;
+    background-color: blue;
 }
+
 /*estilos para mapa*/
-.map-container{
+.map-container {
     display: flex;
     flex-direction: column;
     padding: 20px 20px;
-    
 }
-
-
-
-
-
-
 
 /*estilos para pag servicios*/
 
 ul li {
-    
     list-style-type: none;
     font-weight: bold;
     text-align: center;
-
 }
 
+.carousel-item img {
+    width: auto;
+    height: auto;
+}
 
-
-
+.ol,
+ul {
+    padding: 2rem;
+}
