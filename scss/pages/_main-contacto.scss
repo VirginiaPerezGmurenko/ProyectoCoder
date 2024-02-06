@@ -1,0 +1,75 @@
+
+.main-contacto{
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    #contactForm{
+      max-width: 400px;
+      width: 100%;
+      padding: 20px;
+      background-image: url(../../img/local-comercial.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+  
+        label {
+          font-weight: bold;
+          color: $color-principal;
+      
+
+    
+        }
+  
+        input,
+        textarea {
+          width: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+          margin-top: 5px;
+        }
+      }
+  
+      button {
+        background-color: $color-principal;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+        
+  
+        &:hover {
+          background-color: blue;
+        }
+      }
+  
+    }
+}  
+}
+
+/*estilos para mapa responsive*/
+
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin: 25px;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

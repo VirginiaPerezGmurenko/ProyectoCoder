@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transporte Isidro Perez | Contacto</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
@@ -17,65 +18,47 @@
 
 <body>
     <header class="header">
-        <nav>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="../img/logo-empresa1.png" alt="Logo de transporte"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-ul">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page"
-                                    href="oportunidades-laborales.html">Oportunidades laborales</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="empresa.html">Empresa</a>
-                            </li>
-
-
-                        </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="header-logo" src="../img/logo-bien1.png" alt="Logo de transporte"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-ul">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                         </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
                         </li>
-                        </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/oportunidades-laborales.html">Oportunidades laborales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/empresa.html">Empresa</a
+                            >
+                        </li>
+                    </ul>
+                    </li>
 
-                    </div>
+                    </li>
+                    </ul>
+
                 </div>
-            </nav>
-
+            </div>
         </nav>
-    </header>
-    <main>
+</header>
+        
+    <main class="main-contacto">
         <!--CONTACTO DIRECTO-->
         <div>
             <h1>Medios de Contacto</h1>
-
-            <ul>
-                <div>
-
-                    <img src="../img/imagen-telefono.png" alt="foto-fetefono">
-                    <li class="telefono">Telefono: 09452621921</li>
-                </div>
-                <div>
-                    <img src="../img/logo-email.png" alt="logo-email">
-                    <li class="telefono">Email: trasnportes@hotmail.com </li>
-                </div>
-
-            </ul>
-
         </div>
 
         <h2 class="subtitulo">
@@ -84,6 +67,7 @@
 
 
         <!--FORMULARIO DE CONTACTO-->
+
         <div class="container">
             <form id="contactForm">
                 <div class="form-group">
@@ -108,15 +92,12 @@
 </body>
 
 </html>
-<br>
 
 <!--MAPA DEL COOGLE MAPS-->
 <div id="mapa">
     <h2 class="subtitulo">
         Nuestra Ubicacion
     </h2>
-
-    <br>
 
 </div>
 <!--ARREGLAR-->
@@ -127,22 +108,17 @@
 
 
 <!--PIE DE PAGINA-->
-<footer>
-    <section>
-        <div>
-            <a href="http://www.facebook.com" target="_blank">Facebook</a>
-            <a href="http://www.instagram.com" target="_blank">Instagram</a>
+<section class="section-footer">
+    <footer class="footer">
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com" target="_blank"><img src="../img/icon-facebook.png" alt="Facebook"></a>
+            <a href="https://www.twiterr.com" target="_blank"><img src="../img/icon-twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="../img/icon-instagram.png" alt="Instagram"></a>
         </div>
-        <p>Todos los derechos reservados</p>
-        <div>
+        <p>&copy; 2024 Transportes Isidro Perez - Todos los derechos reservados.</p>
+    </footer>
+</section>
 
-            <img src="../img/imagen-telefono.png" alt="foto-telefono">
-            <strong>
-                <p class="telefono">Celular de contacto: +099959999</p>
-            </strong>
-        </div>
-    </section>
-</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>

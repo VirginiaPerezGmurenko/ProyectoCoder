@@ -1,0 +1,30 @@
+//estilos globales
+
+h1{
+    color: rgb(27, 27, 172);
+    background-color: $color-principal;
+    text-align: center;
+}
+
+.h2{
+    color: blue;
+    text-align: center;
+}
+
+h3{
+    color: blue;
+    text-align: center;
+
+
+}
+.subtitulo{
+    color: $color-principal;
+    text-align: center;
+}
+
+.p{
+    color: black;
+    font-size: larger;
+    margin: 30px;
+}
+

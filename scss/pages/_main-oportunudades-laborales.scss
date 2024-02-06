@@ -1,0 +1,57 @@
+.solicitud-laboral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    div {
+        width: 100%;
+        text-align: center;
+
+        h1 {
+            margin-bottom: 20px;
+        }
+    }
+
+    .formulario-empleo {
+        max-width: 400px;
+        width: 100%;
+        padding: 20px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        div {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+
+            label {
+                font-weight: bold;
+            }
+
+            input,
+            textarea,
+            select {
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+                margin-top: 5px;
+            }
+        }
+
+        button {
+            background-color: rgb(117, 181, 119);
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+
+            &:hover {
+                background-color: blue;
+            }
+        }
+    }
+}
