@@ -1,11 +1,12 @@
-
-.main-contacto{
-  .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.main-contacto {
+  .container {
+    @include flex(column, center, center);
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
     height: 100vh;
-    #contactForm{
+
+    #contactForm {
       max-width: 400px;
       width: 100%;
       padding: 20px;
@@ -14,27 +15,25 @@
       background-position: center;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
+
       .form-group {
+        @include flex(column, stretch, flex-start);
 
-        //NO SE PORQUE NO ME ANDA, PERO LO INTENTE
-       // @include flex(column, stretch, flex-start);
-
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: stretch;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: flex-start;
+        // align-items: stretch;
 
         margin-bottom: 15px;
-  
+
         label {
           font-weight: bold;
           color: $color-principal;
-      
 
-    
+
+
         }
-  
+
         input,
         textarea {
           width: 100%;
@@ -43,24 +42,28 @@
           margin-top: 5px;
         }
       }
-  
+
+
+
       button {
         background-color: $color-principal;
-        color: white;
-        padding: 10px 15px;
+        //color: white;
+        //padding: 10px 15px;
+        @extend %boton;
+
         border: none;
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s ease-in-out;
-        
-  
+
+
         &:hover {
           background-color: blue;
         }
       }
-  
+
     }
-}  
+  }
 }
 
 /*estilos para mapa responsive*/
