@@ -16,8 +16,15 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
       .form-group {
+
+        //NO SE PORQUE NO ME ANDA, PERO LO INTENTE
+       // @include flex(column, stretch, flex-start);
+
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+
         margin-bottom: 15px;
   
         label {
