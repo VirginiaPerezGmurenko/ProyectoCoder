@@ -1,4 +1,10 @@
 //estilos globales
+body{
+    
+    background-image: url(../../img/fondo-verdet.png); 
+    background-size: cover;
+
+}
 
 h1{
     color: rgb(27, 27, 172);
@@ -22,9 +28,10 @@ h3{
     text-align: center;
 }
 
-.p{
+p{
     color: black;
     font-size: larger;
     margin: 30px;
+    padding: 20px;
 }
 

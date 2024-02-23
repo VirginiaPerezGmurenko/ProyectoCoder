@@ -4,12 +4,20 @@ ul li {
     text-align: center;
 }
 
-.carousel-item img {
-    width: 100%;
-    height: 100%;
-
+.carousel {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; 
 }
 
-.listado{
+.carousel-item img {
+    max-height: 350px;
+    width: auto;
+    margin: 0 auto; 
+    display: block; 
+}
+
+
+.listado {
     padding: 2rem;
 }
